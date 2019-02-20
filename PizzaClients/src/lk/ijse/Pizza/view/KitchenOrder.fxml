@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="542.0" prefWidth="782.0" style="-fx-background-color: maroon;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="461.0" fitWidth="822.0" layoutX="-7.0" layoutY="83.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/hd-achtergrond-rood-witte-abstracte-achtergrond-hd-wallpaper-1.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="108.0" fitWidth="161.0" layoutX="36.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/Pizza_Hut_2012_logo.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="251.0" layoutY="35.0" text="Kitchen Order Form" textFill="#e8dcdc">
+         <font>
+            <Font name="DejaVu Serif Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="87.0" layoutY="173.0" text="Contact Number :" textFill="#070606">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="88.0" layoutY="214.0" text="Customer Name :" textFill="#070606">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="88.0" layoutY="262.0" text="Processing Time :" textFill="#070606">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <TextField layoutX="265.0" layoutY="171.0" prefHeight="28.0" prefWidth="271.0" />
+      <TextField layoutX="265.0" layoutY="212.0" prefHeight="28.0" prefWidth="339.0" />
+      <TextField layoutX="265.0" layoutY="260.0" prefHeight="28.0" prefWidth="127.0" />
+      <Label layoutX="411.0" layoutY="262.0" prefHeight="24.0" prefWidth="2.0" text="s" textFill="#070606">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="92.0" layoutY="314.0" text="Tel Operator ID :" textFill="#070606">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <TextField layoutX="265.0" layoutY="312.0" prefHeight="28.0" prefWidth="127.0" />
+      <Label layoutX="90.0" layoutY="363.0" text="Chef ID :" textFill="#070606">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <TextField layoutX="265.0" layoutY="361.0" prefHeight="28.0" prefWidth="127.0" />
+      <Label layoutX="90.0" layoutY="403.0" text="Quantity :" textFill="#070606">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <TextField layoutX="265.0" layoutY="401.0" prefHeight="28.0" prefWidth="97.0" />
+      <Label layoutX="90.0" layoutY="450.0" text="Total Price :" textFill="#070606">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <TextField layoutX="265.0" layoutY="448.0" prefHeight="28.0" prefWidth="183.0" />
+      <Label layoutX="214.0" layoutY="506.0" style="-fx-background-color: yellow;" text="Thank You ,Come again.." textFill="#070606">
+         <font>
+            <Font name="Lucida Sans Typewriter Regular" size="23.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

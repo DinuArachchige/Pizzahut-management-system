@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="810.0" style="-fx-background-color: maroon;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="509.0" fitWidth="815.0" layoutX="-7.0" layoutY="83.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/hd-achtergrond-rood-witte-abstracte-achtergrond-hd-wallpaper-1.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="108.0" fitWidth="161.0" layoutX="36.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/Pizza_Hut_2012_logo.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="251.0" layoutY="35.0" text="Check Order" textFill="#e8dcdc">
+         <font>
+            <Font name="DejaVu Serif Bold" size="23.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="242.0" fitWidth="392.0" layoutX="415.0" layoutY="274.0" opacity="0.14" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/pizzahut.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="194.0" fitWidth="398.0" layoutX="412.0" layoutY="78.0" opacity="0.14" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/pizza-hut.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="144.0" layoutY="159.0" text="Contact Number :" textFill="#070606">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Button layoutX="427.0" layoutY="506.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="184.0" style="-fx-background-color: red;" text="Click the row">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="661.0" layoutY="112.0" mnemonicParsing="false" style="-fx-background-color: yellow;" text="Clear">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Button>
+      <TextField layoutX="333.0" layoutY="157.0" prefHeight="28.0" prefWidth="289.0" />
+      <TableView layoutX="91.0" layoutY="251.0" prefHeight="200.0" prefWidth="559.0">
+         <columns>
+            <TableColumn prefWidth="222.0" text="Order ID" />
+            <TableColumn prefWidth="174.0" text="Order Date" />
+            <TableColumn prefWidth="162.0" text="Order Price" />
+         </columns>
+      </TableView>
+      <TextField layoutX="98.0" layoutY="483.0" prefHeight="51.0" prefWidth="76.0" />
+   </children>
+</AnchorPane>
